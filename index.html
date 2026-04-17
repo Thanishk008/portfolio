@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanishk - Portfolio</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="shortcut icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Thanishk</a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <div class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </div>
+                <div class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </div>
+                <div class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </div>
+                <div class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </div>
+                
+                <div class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </div>
+            </div>
+            <!-- Dark Mode Toggle -->
+            <div class="theme-toggle" id="theme-toggle">
+                <span class="theme-icon theme-icon-sun" aria-hidden="true">
+                    <i class="fas fa-sun"></i>
+                </span>
+                <button
+                    id="theme-switch"
+                    class="theme-switch"
+                    type="button"
+                    role="switch"
+                    aria-checked="false"
+                    aria-label="Toggle theme"
+                >
+                    <span class="switch-track">
+                        <span class="switch-thumb"></span>
+                    </span>
+                </button>
+                <span class="theme-icon theme-icon-moon" aria-hidden="true">
+                    <i class="fas fa-moon"></i>
+                </span>
+            </div>
+            
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="typing-text">Hello, I'm</span>
+                    <span class="hero-name">Thanishk</span>
+                </h1>
+                <p class="hero-subtitle">Software Developer</p>
+                <p class="hero-description">
+                    Passionate about creating innovative digital solutions that solve real-world problems 
+                    through clean code and exceptional user experiences.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="floating-shapes">
+                    <div class="shape shape-1"></div>
+                    <div class="shape shape-2"></div>
+                    <div class="shape shape-3"></div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Get to know me better</p>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="profile.svg" alt="Thanishk" class="profile-photo">
+                </div>
+                <div class="about-text">
+                    <p>
+                        I'm <strong>Thanishk</strong>, a dedicated software developer with a passion for crafting 
+                        innovative digital solutions. With expertise spanning full-stack development, I specialize 
+                        in building scalable web applications that deliver exceptional user experiences.
+                    </p>
+                    <p>
+                        My journey in technology is driven by curiosity and a commitment to continuous learning. 
+                        I thrive on transforming complex problems into elegant, efficient solutions using cutting-edge 
+                        technologies and best practices in software development.
+                    </p>
+                    <p>
+                        Beyond coding, I'm passionate about staying current with emerging technologies, 
+                        contributing to open-source projects, and sharing knowledge with the developer community. 
+                        I believe in writing clean, maintainable code and creating applications that make a 
+                        meaningful impact.
+                    </p>
+                    <div class="stats">
+                        <div class="stat">
+                            <h3 class="stat-number" data-target="8">0</h3>
+                            <p class="stat-label">Projects Completed</p>
+                        </div>
+                        <div class="stat">
+                            <h3 class="stat-number" data-target="1">0</h3>
+                            <p class="stat-label">Years Experience</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills</h2>
+                <p class="section-subtitle">Resume-backed technical strengths</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <img
+                        class="skill-logo"
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                        alt="Python logo"
+                        loading="lazy"
+                    >
+                    <h3>Python</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="90%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <img
+                        class="skill-logo"
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
+                        alt="C++ logo"
+                        loading="lazy"
+                    >
+                    <h3>C++</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="78%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <img
+                        class="skill-logo"
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+                        alt="SQL logo"
+                        loading="lazy"
+                    >
+                    <h3>SQL</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="82%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <img
+                        class="skill-logo"
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+                        alt="TypeScript logo"
+                        loading="lazy"
+                    >
+                    <h3>TypeScript</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="80%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <img
+                        class="skill-logo"
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg"
+                        alt="TensorFlow logo"
+                        loading="lazy"
+                    >
+                    <h3>TensorFlow</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="85%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <img
+                        class="skill-logo"
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg"
+                        alt="PyTorch logo"
+                        loading="lazy"
+                    >
+                    <h3>PyTorch</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="81%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <img
+                        class="skill-logo skill-logo-monochrome"
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg"
+                        alt="Flask logo"
+                        loading="lazy"
+                    >
+                    <h3>Flask</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="76%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <img
+                        class="skill-logo"
+                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+                        alt="MongoDB logo"
+                        loading="lazy"
+                    >
+                    <h3>MongoDB</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="78%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <img
+                        class="skill-logo"
+                        src="https://cdn.simpleicons.org/snowflake/29B5E8"
+                        alt="Snowflake logo"
+                        loading="lazy"
+                    >
+                    <h3>Snowflake</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="70%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Projects</h2>
+                <p class="section-subtitle">Some of my recent work</p>
+            </div>
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="web">Web Apps</button>
+                <button class="filter-btn" data-filter="mobile">Mobile</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250/0891b2/ffffff?text=E-Commerce+Platform" alt="E-Commerce Platform">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">E-Commerce Platform</h3>
+                        <p class="project-description">
+                            A full-stack e-commerce solution with React, Node.js, and MongoDB.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="mobile">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250/06b6d4/ffffff?text=Task+Manager+App" alt="Task Manager App">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Task Manager App</h3>
+                        <p class="project-description">
+                            A mobile-first task management application with real-time sync.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React Native</span>
+                            <span class="tech-tag">Firebase</span>
+                            <span class="tech-tag">Redux</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250/0891b2/ffffff?text=Dashboard+Analytics" alt="Dashboard Analytics">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Analytics Dashboard</h3>
+                        <p class="project-description">
+                            A comprehensive analytics dashboard with interactive charts and reports.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Vue.js</span>
+                            <span class="tech-tag">D3.js</span>
+                            <span class="tech-tag">Express</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="design">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250/06b6d4/ffffff?text=Brand+Identity" alt="Brand Identity">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fab fa-dribbble"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Brand Identity Design</h3>
+                        <p class="project-description">
+                            Complete brand identity design including logo, colors, and guidelines.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Adobe Illustrator</span>
+                            <span class="tech-tag">Figma</span>
+                            <span class="tech-tag">Photoshop</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250/0891b2/ffffff?text=Blog+Platform" alt="Blog Platform">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Blog Platform</h3>
+                        <p class="project-description">
+                            A modern blog platform with markdown support and SEO optimization.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Next.js</span>
+                            <span class="tech-tag">Strapi</span>
+                            <span class="tech-tag">Tailwind CSS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="mobile">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250/14b8a6/ffffff?text=Weather+App" alt="Weather App">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Weather Forecast App</h3>
+                        <p class="project-description">
+                            A beautiful weather app with location-based forecasts and animations.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Flutter</span>
+                            <span class="tech-tag">API Integration</span>
+                            <span class="tech-tag">Animations</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's work together</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>p.thanishk@example.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+91 (xxx) xxx-xxxx</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>India</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-dribbble"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Thanishk. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

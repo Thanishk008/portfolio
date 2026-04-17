@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Portfolio favicon">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#02060c"/>
+      <stop offset="100%" stop-color="#11243a"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#bg)"/>
+  <rect x="4" y="4" width="56" height="56" rx="12" fill="none" stroke="#6f97b8" stroke-opacity="0.55" stroke-width="2"/>
+  <path d="M23 22L14 32L23 42" fill="none" stroke="#dbe7f4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M41 22L50 32L41 42" fill="none" stroke="#dbe7f4" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M35 18L29 46" fill="none" stroke="#7ba9c3" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="49" cy="15" r="4" fill="#7ba9c3"/>
+</svg>

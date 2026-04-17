@@ -1,0 +1,37 @@
+<svg width="300" height="300" viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="textGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f8fafc;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background Circle -->
+  <circle cx="150" cy="150" r="150" fill="url(#bgGradient)"/>
+  
+  <!-- Decorative Elements -->
+  <circle cx="80" cy="80" r="20" fill="rgba(255,255,255,0.1)"/>
+  <circle cx="220" cy="100" r="15" fill="rgba(255,255,255,0.15)"/>
+  <circle cx="250" cy="200" r="12" fill="rgba(255,255,255,0.1)"/>
+  <circle cx="70" cy="220" r="18" fill="rgba(255,255,255,0.12)"/>
+  
+  <!-- Code Brackets -->
+  <text x="60" y="120" font-family="monospace" font-size="24" fill="rgba(255,255,255,0.3)">&lt;</text>
+  <text x="220" y="180" font-family="monospace" font-size="24" fill="rgba(255,255,255,0.3)">/&gt;</text>
+  
+  <!-- Main Text -->
+  <text x="150" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="url(#textGradient)">P.T</text>
+  <text x="150" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="rgba(255,255,255,0.8)">Developer</text>
+  
+  <!-- Tech Icons -->
+  <rect x="110" y="200" width="8" height="8" fill="rgba(255,255,255,0.4)"/>
+  <rect x="125" y="200" width="8" height="8" fill="rgba(255,255,255,0.4)"/>
+  <rect x="140" y="200" width="8" height="8" fill="rgba(255,255,255,0.4)"/>
+  <rect x="155" y="200" width="8" height="8" fill="rgba(255,255,255,0.4)"/>
+  <rect x="170" y="200" width="8" height="8" fill="rgba(255,255,255,0.4)"/>
+  <rect x="185" y="200" width="8" height="8" fill="rgba(255,255,255,0.4)"/>
+</svg>
