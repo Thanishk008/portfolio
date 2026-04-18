@@ -384,7 +384,7 @@ html.no-transitions *::after {
     background: rgba(255, 255, 255, 0.96);
     color: var(--accent-primary);
     transform: translateY(-2px);
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 25px rgba(255, 255, 255, 0.88);
 }
 
 [data-theme="dark"] .btn-primary {
@@ -416,9 +416,9 @@ html.no-transitions *::after {
 
 .hero-buttons .btn-secondary {
     background: transparent;
-    color: #123248;
-    border: 2px solid rgba(23, 58, 83, 0.58);
-    box-shadow: 0 6px 14px rgba(19, 43, 64, 0.1);
+    color: #fff;
+    border: 2px solid rgba(192, 210, 228, 1);
+    box-shadow: 0 6px 14px rgba(19, 43, 64, 0);
 }
 
 .hero-buttons .btn-secondary:hover {
